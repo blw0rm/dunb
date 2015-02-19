@@ -1,0 +1,5 @@
+[program:django-uwsgi]
+command = ${uwsgi_binary} --ini ${uwsgi_config}
+
+[program:nginx-django]
+command = /usr/sbin/nginx
